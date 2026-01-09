@@ -84,6 +84,12 @@ body {
     letter-spacing: 0.5px;
 }
 
+.close-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
  
 
 .warning-banner.hidden {
@@ -1416,6 +1422,10 @@ footer svg {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+.close-icon{
+    height: 53px !important;
 }
 
 .image-modal-close {

@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 modal.className = 'image-modal';
                 modal.innerHTML = `
                     <div class="image-modal-content">
-                        <button class="image-modal-close" aria-label="Close">&times;</button>
+                        <button class="image-modal-close" aria-label="Close"><span class="close-icon">&times;</span></button>
                         <img src="${img.src}" alt="${img.alt}" class="image-modal-image">
                     </div>
                 `;
